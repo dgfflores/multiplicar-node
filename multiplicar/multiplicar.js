@@ -7,7 +7,6 @@ const colors = require('colors');
 let listarArchivo = (base, limite = 10) => {
     console.log("========================".green)
     console.log("========================".green)
-    console.log("========================".green)
     for (let index = 1; index <= limite; index++) {
         console.log(`${base} * ${index} = ${base * index}`);
     }
